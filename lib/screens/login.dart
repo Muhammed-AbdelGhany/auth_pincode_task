@@ -35,7 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
             children: [
               Header(),
               SizedBox(
-                height: 120,
+                height: 80,
               ),
               Container(
                 child: Form(
@@ -88,7 +88,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           onSaved: (newValue) => _password = newValue,
                         ),
                         SizedBox(
-                          height: 105,
+                          height: 40,
                         ),
                         Container(
                           width: double.infinity,
@@ -141,6 +141,9 @@ class _LoginScreenState extends State<LoginScreen> {
                             ),
                           ),
                         ),
+                        SizedBox(
+                          height: 60,
+                        )
                       ],
                     ),
                   ),
